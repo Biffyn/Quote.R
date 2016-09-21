@@ -1,0 +1,16 @@
+body {
+  background: #B993D6;
+  background: -webkit-linear-gradient(right, #B993D6, #8CA6DB);
+  background: -o-linear-gradient(right, #B993D6, #8CA6DB);
+  background: linear-gradient(to left, #B993D6, #8CA6DB);
+  color: white;
+}
+
+.main {
+  padding-top: 150px;
+}
+
+.quote-card {
+  border-radius: 10px;
+  background-color: darkslateblue;
+}
