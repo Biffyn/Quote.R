@@ -7,7 +7,7 @@ body {
     background: -o-linear-gradient(right, #B993D6, #8CA6DB);
     background: linear-gradient(to left, #B993D6, #8CA6DB);
     color: white;
-    font-size: 1.5em;
+    font-size: 1.75em;
 }
 
 #quote-btn {
@@ -45,14 +45,17 @@ body {
     padding: 20px;
     border-radius: 10px;
     background-color: darkslateblue;
+    .quote {
+        padding: 0 5px;
+    }
 
-    p {
+    span {
         padding: 10px 0;
     }
 
     cite {
         padding-bottom: 10px;
-        font-size: 0.8em;
+        font-size: 0.9em;
         font-weight: 200;
     }
 }
