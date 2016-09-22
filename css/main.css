@@ -15,6 +15,12 @@ body {
 
 .title {
   margin-top: 0;
+  font-size: 3em;
+  margin-bottom: 0px;
+}
+
+.tag-line {
+  font-weight: 300;
 }
 
 .center-block {
