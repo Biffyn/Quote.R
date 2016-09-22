@@ -2,27 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="James Richards">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container-fluid main">
         <div class="container wrap">
-            <h1 class="text-center">Random Tweet Generator</h1>
+            <h1 class="text-center title">Random Tweet Generator</h1>
             <div class="row">
-                <div class="col-xs-12 quote-card">
+                <div class="col-xs-12 center-block quote-card">
                     <h2 class="title text-center">Random Quote</h2>
                     <div class="quote">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos saepe expedita quia, voluptate nostrum odit ipsum iure ad ullam debitis dolorum et voluptatem! Cupiditate fuga ut eum repudiandae, harum dignissimos!</p>
+                        <cite class="pull-right" title="" id="author">Author Name</cite>
                     </div>
-                    <a href="#" class="btn btn-lg btn-primary">New Quote</a>
-                    <a href="#" class="btn btn-lg btn-primary pull-right">Tweet This Quote</a>
+                    <div class="two huge ui buttons">
+                        <a id="quote-btn" href="#" class="positive ui button">New Quote</a>
+                        <a id="tweet-btn" href="#" class="ui twitter button">
+                            <i class="twitter icon"></i>
+                            Tweet This Quote
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/webflow.js"></script>
 </body>
 </html>

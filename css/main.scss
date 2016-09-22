@@ -1,19 +1,45 @@
 // Imports
-
 // main css
-body{
+
+body {
     background: #B993D6;
     background: -webkit-linear-gradient(right, #B993D6, #8CA6DB);
     background: -o-linear-gradient(right, #B993D6, #8CA6DB);
     background: linear-gradient(to left, #B993D6, #8CA6DB);
     color: white;
+    font-size: 1.5em;
 }
 
-.main{
-    padding-top: 150px;
+#quote-btn {
+    // border-right: 1px solid darkslateblue;
 }
 
-.quote-card{
+.title {
+    margin-top: 0;
+}
+
+.center-block {
+    float: none !important;
+}
+
+.main {
+    padding-top: 100px;
+}
+
+.quote-card {
+    margin-top: 20px;
+    max-width: 600px;
+    padding: 20px;
     border-radius: 10px;
     background-color: darkslateblue;
+
+    p {
+        padding: 10px 0;
+    }
+
+    cite {
+        padding-bottom: 10px;
+        font-size: 0.8em;
+        font-weight: 200;
+    }
 }
