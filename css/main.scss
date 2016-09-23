@@ -14,18 +14,16 @@ body {
     font-size: 1.75em;
 }
 
-#quote-btn {
-    // border-right: 1px solid darkslateblue;
-}
-
 #footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
 
 #header {
     height: 70px;
+    border-radius: 0;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .accent {
@@ -40,7 +38,6 @@ body {
 }
 
 .tag-line {
-
     font-weight: 300;
 }
 
@@ -49,7 +46,7 @@ body {
 }
 
 .main {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .quote-card {
@@ -57,6 +54,7 @@ body {
     max-width: 600px;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     background-color: $main;
     .quote {
         padding: 0 5px;
