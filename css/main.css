@@ -15,6 +15,8 @@ body {
 
 #quote-btn {
   font-family: 'Source Code Pro', monospace;
+  margin-top: 15px;
+  margin-bottom: 15px;
   letter-spacing: 0.02em;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -47,15 +49,44 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
+#fork {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+#fork:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#star {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+#star:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
 .accent {
   color: #FF4081;
+}
+
+.logo {
+  font-size: 2.2em;
+}
+
+.cta {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
 }
 
 .title {
   margin-top: 0;
   font-family: 'Lato', sans-serif;
   font-size: 3.5em;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   letter-spacing: 0.06em;
 }
 

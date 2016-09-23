@@ -13,13 +13,32 @@
 </head>
 
 <body>
-    <div id="header" class="ui violet three item inverted menu">
-
+    <div id="header" class="ui violet inverted secondary menu">
+        <div class="ui container">
+            <div class="item">
+                <span class="logo" >Quote.R
+                    <i class="random outline accent icon"></i>
+                </span>
+                </a>
+            </div>
+            <div class="right menu">
+                <div class="item">
+                <a id="fork" class="circular ui blue icon button" href="https://github.com/Biffyn/Quote.R/fork">
+                    <i class="fork icon"></i> Fork Me
+                </a>
+                </div>
+                <div class="item">
+                    <a id="star" class="circular ui pink icon button" href="https://github.com/Biffyn/Quote.R">
+                        <i class="star  icon"></i> Star Me
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="container-fluid main">
         <div class="container">
             <h1 class="text-center title">Quote.R <i class="random outline accent icon"></i></h1>
-            <p class="text-center tag-line"><em>A random quote tweet machine</em></p>
+            <p class="text-center tag-line"><em>A random quote tweet generator</em></p>
             <div class="row">
                 <div class="col-xs-12 center-block quote-card">
                     <div class="text-center">
@@ -29,37 +48,15 @@
                         <p></p>
                         <cite class="pull-right author"></cite>
                     </div>
-                    <div class="two big ui buttons">
-                        <a id="quote-btn" href="#" class="pink ui button">
+                    <div class="cta">
+                        <a id="quote-btn" href="#" class="ui big circular pink button">
                             <i class="refresh icon"></i>New Quote</a>
-                        <a id="tweet-btn" href="#" class="blue ui button">
+                        <a id="tweet-btn" href="#" class="ui big circular blue button">
                             <i class="twitter icon"></i>Tweet This Quote</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div id="footer" class="ui violet inverted vertical segment">
-        <div class="ui container">
-            <div class="pull-right">
-                <div class="mini ui labeled button" tabindex="0">
-                    <div class="ui red button">
-                        <i class="heart icon"></i> Like
-                    </div>
-                    <a class="ui basic red left pointing label">
-                        1,048
-                    </a>
-                </div>
-                <div class="mini ui labeled button font" tabindex="0">
-                    <div class="ui blue button">
-                        <i class="fork icon"></i>
-                        Forks
-                    </div>
-                    <a class="ui basic left pointing blue label">
-                        1,048
-                    </a>
-                </div>
-            </div>
+
         </div>
     </div>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
