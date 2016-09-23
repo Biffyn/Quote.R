@@ -27,3 +27,5 @@ Some testing has been done on the following browsers:
 * Windows:
 	* Chrome
 	* Fiefox
+	* Edge
+	* Opera
