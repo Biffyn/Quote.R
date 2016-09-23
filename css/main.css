@@ -8,15 +8,24 @@ body {
 }
 
 #footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+#header {
+  height: 70px;
+}
+
+.accent {
+  color: #FF4081;
 }
 
 .title {
   margin-top: 0;
   font-size: 3em;
   margin-bottom: 0px;
+  letter-spacing: 0.05em;
 }
 
 .tag-line {
@@ -36,7 +45,7 @@ body {
   max-width: 600px;
   padding: 20px;
   border-radius: 10px;
-  background-color: darkslateblue;
+  background-color: #5E35B1;
 }
 
 .quote-card .quote {
@@ -45,6 +54,7 @@ body {
 
 .quote-card span {
   padding: 10px 0;
+  letter-spacing: 0.045em;
 }
 
 .quote-card cite {
