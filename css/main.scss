@@ -3,10 +3,12 @@
   - James Richards
 ******************************/
 // vars
-//colours
 $accent: #FF4081;
-$main: #5E35B1; // fonts
+$main: #5E35B1;
+
+// fonts
 @import 'https://fonts.googleapis.com/css?family=Indie+Flower|Lato|Play|Source+Code+Pro';
+
 // main css
 body {
     font-family: 'Play', sans-serif;
@@ -78,7 +80,7 @@ body {
 }
 
 .logo {
-    font-size: 2.2em;   
+    font-size: 2.2em;
 }
 
 .cta{
